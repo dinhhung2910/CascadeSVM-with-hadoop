@@ -2,6 +2,7 @@
 # Created by https://www.gitignore.io/api/java,maven,eclipse,apachehadoop,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=java,maven,eclipse,apachehadoop,visualstudiocode
 
+
 ### ApacheHadoop ###
 *.iml
 *.ipr
@@ -137,3 +138,7 @@ buildNumber.properties
 .history
 
 # End of https://www.gitignore.io/api/java,maven,eclipse,apachehadoop,visualstudiocode
+
+!files/*
+!cascade-svm-mr.jar
+!CascadeC1Linear.jar

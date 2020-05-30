@@ -23,8 +23,8 @@ public class App
         String testFilepath = "";
         
         try {
-            trainFilepath = App.class.getResource("/"+fileName).getPath();
-            testFilepath = App.class.getResource("/"+fileTest).getPath();
+            trainFilepath = App.class.getResource("/"+fileName).getPath().replaceAll("%20", " ");;
+            testFilepath = App.class.getResource("/"+fileTest).getPath().replaceAll("%20", " ");;
         }catch (Exception e) {
         	 System.out.println(e);
 			return;
