@@ -142,3 +142,7 @@ buildNumber.properties
 !files/*
 !cascade-svm-mr.jar
 !CascadeC1Linear.jar
+
+files/*.model
+files/out
+files/out.txt
