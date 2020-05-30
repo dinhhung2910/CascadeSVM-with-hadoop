@@ -16,3 +16,14 @@ mvn install
 ```
 
 to compile .jar files
+
+## Cascade SVM
+
+1. File test và train tương ứng là files/a1a.t và data-d.txt
+
+2. Chạy:
+
+```bash
+./createfolder.sh # copy file to hdfs
+./runhadoop.sh # train & predict
+```
